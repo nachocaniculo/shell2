@@ -1,0 +1,26 @@
+# Ignore files and directories generated when compiling and linking C files
+**/*.o
+**/*.a
+**/*.out
+**/*.so
+**/*.dll
+**/*.exe
+minishell
+test
+**/*.txt
+
+# Ignore the .devcontainer folder
+**/.devcontainer/
+
+# Ignore specific user files
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# Ignore backup and temporary files
+**/*~
+**/*.swp
+**/*.bak
+
+# Ignore Visual Studio Code
+**/.vscode/
